@@ -30,12 +30,12 @@ let painel;
 
 // === CARREGAMENTO DE SPRITES ===
 function preload() {
-  // Links diretos das imagens hospedadas no FreeImage.host
-  imgFundo = loadImage('https://iili.io/FJMEDyx.png');
-  imgBase = loadImage('https://iili.io/FJMEPC7.png'); 
-  imgViga = loadImage('https://iili.io/FJMEtvj.png');
-  imgPorco = loadImage('https://iili.io/FJMEs4e.png');
-  imgTubarao = loadImage('https://iili.io/FJMEiG9.png');
+  // Carrega imagens da pasta assets/
+  imgFundo = loadImage('assets/FJMEDyx.png');
+  imgBase = loadImage('assets/FJMEPC7.png');
+  imgViga = loadImage('assets/FJMEtvj.png');
+  imgPorco = loadImage('assets/FJMEs4e.png');
+  imgTubarao = loadImage('assets/FJMEiG9.png');
 }
 
 function setup() {
